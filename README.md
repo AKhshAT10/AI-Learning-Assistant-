@@ -1,72 +1,73 @@
-🤖 AI Learning Assistant
+# 🤖 AI Learning Assistant
 
-An AI-powered learning assistant built using the Gemini API to help users study smarter and more efficiently. The platform allows users to upload documents, generate flashcards, take quizzes, and manage their learning securely through authentication.
+An **AI-powered learning assistant** built using the **Gemini API** to help users study smarter and more efficiently. The platform allows users to upload documents, generate flashcards, take quizzes, and manage their learning securely through authentication.
 
-This project focuses on improving active recall, revision efficiency, and personalized learning using modern AI capabilities.
+This project focuses on improving **active recall**, **revision efficiency**, and **personalized learning** using modern AI capabilities.
 
-🚀 Features
-📄 Document Upload
+---
 
-Upload study materials such as notes, PDFs, or text-based documents
+## 🚀 Features
 
-AI processes the content to extract key concepts
+### 📄 Document Upload
 
-Enables downstream features like flashcards and quizzes
+* Upload study materials such as notes, PDFs, or text-based documents
+* AI processes the content to extract key concepts
+* Enables downstream features like flashcards and quizzes
 
-🧠 AI-Powered Flashcards
+### 🧠 AI-Powered Flashcards
 
-Automatically generates flashcards from uploaded documents
+* Automatically generates flashcards from uploaded documents
+* Focuses on important definitions, concepts, and facts
+* Helps with spaced repetition and quick revision
 
-Focuses on important definitions, concepts, and facts
+### 📝 Smart Quizzes
 
-Helps with spaced repetition and quick revision
+* AI-generated quizzes based on document content
+* Mix of conceptual and factual questions
+* Designed to reinforce understanding and test retention
 
-📝 Smart Quizzes
+### 🔐 Authentication & User Accounts
 
-AI-generated quizzes based on document content
+* Secure user authentication
+* Each user has isolated documents and learning data
+* Ensures privacy and personalized learning experience
 
-Mix of conceptual and factual questions
+---
 
-Designed to reinforce understanding and test retention
+## 🛠️ Tech Stack
 
-🔐 Authentication & User Accounts
+* **Frontend:** Modern JavaScript framework (UI focused on usability and clarity)
+* **Backend:** Node.js-based server
+* **AI Engine:** Google **Gemini API** for content understanding and generation
+* **Authentication:** Secure auth system with protected routes
+* **Database:** Used to store users, documents, flashcards, and quiz data
 
-Secure user authentication
+---
 
-Each user has isolated documents and learning data
+## 🎯 Use Cases
 
-Ensures privacy and personalized learning experience
+* Students preparing for exams
+* Self-learners studying from PDFs or notes
+* Quick revision before tests using flashcards
+* Active recall practice using AI-generated quizzes
 
-🛠️ Tech Stack
+---
 
-Frontend: Modern JavaScript framework (UI focused on usability and clarity)
+## 🔒 Security & Privacy
 
-Backend: Node.js-based server
+* User data is accessible only after authentication
+* Uploaded documents are private to the user
+* Sensitive configuration handled via environment variables
 
-AI Engine: Google Gemini API for content understanding and generation
+---
 
-Authentication: Secure auth system with protected routes
+## 📌 Project Status
 
-Database: Used to store users, documents, flashcards, and quiz data
+This project is under active development and serves as a practical application of **AI-assisted learning** using large language models.
 
-🎯 Use Cases
+---
 
-Students preparing for exams
-
-Self-learners studying from PDFs or notes
-
-Quick revision before tests using flashcards
-
-Active recall practice using AI-generated quizzes
-
-🔒 Security & Privacy
-
-User data is accessible only after authentication
-
-Uploaded documents are private to the user
-
-Sensitive configuration handled via environment variables
-
+**Built with the goal of making studying more intelligent, personalized, and efficient.**
 
 📌 Project Status
 
